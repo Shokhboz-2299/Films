@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+  font-size: 24px;
+  background: linear-gradient(to right, #ff0404, #f0ec12);
+}
+
+.site-header {
+  height: 100px;
+}
+
+/* .js-input-search {
+  display: block;
+  margin-bottom: 30px;
+} */
+
+.js-films-list {
+  min-height: 100vh;
+}
+
+.new-list-item {
+  background-color: #999;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  width: 300px;
+  height: 440px;
+  box-shadow: 5px 10px 8px #888888;
+  transition: all 0.5s ease;
+}
+
+.new-list-item:hover {
+transform: scale(1.1);
+}
+
+.new-img-js {
+  object-fit: cover;
+}
+
+/* .js-prev, js-next {
+  border-radius: 5px;
+} */

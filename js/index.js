@@ -15,7 +15,7 @@ let page = 1;
   var film = prompt("Qaysi filmni izladiz", "Home Alone").trim();
 
 function getData(page) {
-  fetch(`http://www.omdbapi.com/?apikey=9fcd4d84&s=${film}&page=${page}`)
+  fetch(`https://www.omdbapi.com/?apikey=9fcd4d84&s=${film}&page=${page}`)
     .then((response) => response.json())
     .then((data) => {
       console.log(data);

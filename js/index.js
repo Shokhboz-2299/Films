@@ -63,7 +63,7 @@ elSearchForm.addEventListener("submit", (evt) => {
 });
 
 function getData(page, value) {
-  fetch(`http://www.omdbapi.com/?apikey=d83224c7&s=${value}&page=${page}`)
+  fetch(`https://www.omdbapi.com/?apikey=d83224c7&s=${value}&page=${page}`)
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
